@@ -41,7 +41,6 @@ public class Main {
         int[] arr = new int[RANDOM.nextInt(ARR_MAX_LENGTH - ARR_MIN_LENGTH) + ARR_MIN_LENGTH];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = RANDOM.nextInt(MAX_VALUE);
-
         }
         return arr;
     }
